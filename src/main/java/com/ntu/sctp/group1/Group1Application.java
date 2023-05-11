@@ -57,6 +57,7 @@ public class Group1Application {
 	@PostConstruct
 	public void seeder () {
 
+
 		UserCredentials user = new UserCredentials();
 		UserCredentials user2 = new UserCredentials();
 		UserCredentials user3 = new UserCredentials();
@@ -351,6 +352,7 @@ public class Group1Application {
 
 		programRepo.saveAll(List.of(program1, program2, program3, program4, program5, program6));
 		enrolmentRepository.saveAll(List.of(enrolment1, enrolment2, enrolment3, enrolment4, enrolment5, enrolment6));
+
 	}
 
 }
